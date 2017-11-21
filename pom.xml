@@ -58,7 +58,7 @@
 						</goals>
 						<configuration>
 							<!-- Sets the path to the file which contains the execution data. -->
-							<dataFile>target/jacoco.exec</dataFile>
+							<dataFile>target/jacoco.bat</dataFile>
 							<!-- Sets the output directory for the code coverage report. -->
 							<outputDirectory>target/jacoco-ut</outputDirectory>
 						</configuration>
@@ -66,7 +66,7 @@
 				</executions>
 				<configuration>
 					<systemPropertyVariables>
-						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
+						<jacoco-agent.destfile>target/jacoco.bat</jacoco-agent.destfile>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
